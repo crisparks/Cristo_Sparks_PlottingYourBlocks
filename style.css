@@ -1,0 +1,52 @@
+/*CSS reset settings here*/
+/* padding flows clockwise, top -> right -> bottom -> left.)
+padding: 25px 50px 75px 100px;
+Margin x 2) + (Border x 2) + (Padding x 2) + Content Width = total width */
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   #wrapper{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 8px;
+   }
+   
+   #header{
+    min-height: 150px;
+    background-color: green;
+    margin: 14px;
+   }
+   
+   #navigation{
+    min-height: 300px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+    margin: 0px 10px 0px 14px;
+    vertical-align: top;
+   }
+
+   #main_content{
+    min-height: 400px;
+    width: 700px;
+    background-color: red;
+    display: inline-block;
+    margin: 0px 4px 14px 0px;
+    padding: 5px;
+   }
+   .subcontents{
+    min-height: 200px;
+    width: 210px;
+    background-color: yellow;
+    display: inline-block;
+    margin: 12px 0px 10px 10px;
+   }
+   #advertisement{
+    min-height: 120px;
+    width: 660px;
+    background-color: purple;
+    display: inline-block;
+    margin: 10px
+   }
